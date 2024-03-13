@@ -2,12 +2,12 @@ import { View } from "react-native";
 
 import Title from "../../components/Title";
 
-import styles from "./styles.js";
+import styles from "./styles";
 
-export default function Home() {
+export default function Profile() {
   return (
     <View style={styles.container}>
-      <Title title={"Home - Hello! today"} />
+      <Title title={"Profile"} />
     </View>
   );
 }
