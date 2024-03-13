@@ -7,7 +7,7 @@ import styles from "./styles.js";
 export default function Home() {
   return (
     <View style={styles.container}>
-      <Title title={"Home - Hello! today"} />
+      <Title title={"Home - Hello!🐱"} />
     </View>
   );
 }
